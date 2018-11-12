@@ -4,6 +4,8 @@ const bracket = (string) => {
   let total = 0;
   const min = 0;
 
+  console.log('git push working?')
+
   spiltArray.forEach( element => {
     
     if (element === '{' && !spiltArray.includes('}')) {
